@@ -7,3 +7,5 @@ readme = "README.md"
 
 [tool.poetry.dependencies]
 python = "^3.12"
+cd-py-consts = {git = "https://github.com/RulezKT/cd_py_consts.git"}
+pytest = "^8.0.2"

@@ -1,7 +1,4 @@
 import math
-import sys
-
-sys.path.insert(0, "..")
 from cd_py_consts import RAD_RATIO, PI
 
 

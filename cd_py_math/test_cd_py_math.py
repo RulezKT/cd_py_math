@@ -1,5 +1,5 @@
 import math
-from cd_py_math.cd_py_math import fractions_into_degrees, atan2_in_degrees
+from cd_py_math import fractions_into_degrees, atan2_in_degrees
 
 
 def test_fractions_into_degrees():
