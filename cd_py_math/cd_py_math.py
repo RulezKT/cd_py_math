@@ -1,5 +1,5 @@
 import math
-from cd_py_consts import RAD_RATIO, PI
+from cd_py_consts import RAD_RATIO
 
 
 def fractions_into_degrees(degrees: float) -> tuple[float, float, float]:
@@ -73,11 +73,11 @@ def atan2_in_degrees(y, x):
 # если угол должен быть от 0 до 360
 # все в Радианах
 def convert_to_0_360_RAD(longitude):
-    coeff = abs(math.trunc(longitude / (2 * PI)))
+    coeff = abs(math.trunc(longitude / (2 * math.pi)))
     return (
-        longitude + coeff * 2 * PI + 2 * PI
+        longitude + coeff * 2 * math.pi + 2 * math.pi
         if longitude < 0
-        else longitude - coeff * 2 * PI
+        else longitude - coeff * 2 * math.pi
     )
 
 
